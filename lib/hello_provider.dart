@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class HelloProvider extends ChangeNotifier {
-  String _name = '';
+  final String _name = '';
 
   String get name => _name;
 
